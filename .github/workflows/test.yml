@@ -10,7 +10,7 @@ on:
   workflow_dispatch:
 
 env:
-  RINKEBY: ${{ secret.RINKEBY }}
+  RINKEBY: ${{ secrets.RINKEBY }}
 
 jobs:
   check:
